@@ -2,36 +2,58 @@
 =================================================
 
 ## Project Name
+Lab 34: Remote Crud
 
-### Author: Student/Group Name
+### Author: Student
+Trevor Stam
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://codesandbox.io/s/myjr37wr4y)
+* [back-end](https://javascript-401-api.herokuapp.com)
+
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `index.js`
+Main
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `App.js`
+App,
+`render()`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `List.js`
+Records,
+`deleteRecord`,
+`editRecord`,
+`reset`,
+`render`,
+`mapStateToProps`,
+`mapDispatchToProps`,
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+#### `actions.js`
+`postPlayers`,
+`post`,
+`destroy`,
+`get`,
+`patch`,
+`put`,
+#### `record.js`
+Record,
+Form,
+`componentDidMount`,
+`resetPlayer`,
+`handleSubmit`,
+`HandlePost`,
+`HandlePut`,
+`render`,
+`mapStateToProps`,
+`mapDispatchToProps`,
+#### `reducers.js`
+`reducers`,
+#### `store/index.js`
+`combineReducers`,
+`createStore`,
+`composeWithDevTools`,
+`applyMiddleware`,
 
 #### Tests
 * How do you run tests?
@@ -39,4 +61,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](./assets/UML-lab34.jpg)
